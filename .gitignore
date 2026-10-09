@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+
+# Production builds
+/build
+
+# Environment variables
+.env
+.env*.local
+.env.local
+.env.production
+
+# SQLite databases (exclude local runtime db from git)
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
